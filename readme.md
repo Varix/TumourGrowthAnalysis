@@ -1,10 +1,10 @@
 # Mixed Model Anova Tumour Analysis for TIG / NCARD
 
-This script was written for the Tumour Immunology Group part of the Centre for Asbestos Related Diseases for researchers to compare tumour growth between treatment groups. This script generates a text file with the Type 3 
+This script was written for the Tumour Immunology Group part of the National Centre for Asbestos Related Diseases. It is intended for researchers to compare tumour growth between treatment groups without having to know how to program or use the models. This script generates a text file with the mixed Model Anova Type 3, KR-method and Estimated Marginal Means.
 
-Traditional anovas when comparing at different time points and using repeated measures increase the type 1 error in the analysis without the researcher nessisaryly being aware of it. 
+Traditional anovas when comparing at different time points and using repeated measures increase the type 1 error in the analysis without the researcher nessisaryly being aware of it. This statisticall approach allows you to avoid this.
 
-For reference and analysis on why this is a bad idea, see: Heitjan DF, Manni A and Santen RJ, 1993, Statistical analysis of in vivo tumor growth experiments. Cancer Res, 53, 6042–50
+For reference and analysis on this issue, see: Heitjan DF, Manni A and Santen RJ, 1993, Statistical analysis of in vivo tumor growth experiments. Cancer Res, 53, 6042–50
 
 ## Getting Started
 
