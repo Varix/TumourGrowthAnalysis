@@ -7,7 +7,7 @@ install.packages("emmeans")
 library("afex")
 library("emmeans")
 
-## Varibles to Change
+## Vars to Change
 fileName <- "XX_MixedModelAnalysis" ## Change to your file name 
 TumourData <- YourDATAframeNAME  # Change 'YourDATAframeNAME' to your data frame
 g1 <- "1" #change to Treatment Group 1 you want to compare
