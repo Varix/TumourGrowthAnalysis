@@ -2,7 +2,7 @@
 
 This script was written for the Tumour Immunology Group part of the National Centre for Asbestos Related Diseases. It is intended for researchers to compare tumour growth between treatment groups without having to know how to program or use the models. This script generates a text file with the mixed Model Anova Type 3, KR-method and Estimated Marginal Means.
 
-Traditional anovas when comparing at different time points and using repeated measures increase the type 1 error in the analysis without the researcher nessisaryly being aware of it. This statisticall approach allows you to avoid this.
+Traditional anovas when comparing at different time points and using repeated measures increase the type 1 error in the analysis without the researcher necessarily being aware of it. This statistical approach allows you to avoid this.
 
 For reference and analysis on this issue, see: Heitjan DF, Manni A and Santen RJ, 1993, Statistical analysis of in vivo tumor growth experiments. Cancer Res, 53, 6042–50
 
@@ -16,8 +16,10 @@ i) install libraries as required in script (Working on adding a pre-loader that 
 	- Your Long form data frame
 	- Your Treatment Group Numbers
 
-2) Run the OutputAnalysis(TumourData) function
-
+2) Run the line:
+```
+OutputAnalysis(TumourData)
+```
 3) Thats it!!
 
 
