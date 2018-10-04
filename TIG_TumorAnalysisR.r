@@ -33,7 +33,7 @@ OutputAnalysis <- function(WesMMA) {
   CoverT <- "Wes' Mixed Model Analysis for Tumour Growth for TIG / NCARD"
   mixed_model <- mixed(measure~Time*Tx+(1|Sample), data=WesMMA)
   emmeansModel <- emmeans(mixed_model,~Tx|Time)
-  pairwiseModel <- contrast(model4, method = "pairwise")
+  pairwiseModel <- contrast(emmeansModel, method = "pairwise")
   OutPutFileFinal <- paste(today,"_",fileName,".txt", sep="")
   sink(OutPutFileFinal, append=TRUE, split=TRUE)
   cat(CoverT,"\n",fileName," - ",format(today, "%d %b %Y"),"\n", sep="")
