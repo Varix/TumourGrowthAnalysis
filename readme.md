@@ -1,4 +1,5 @@
-# Mixed Model Anova Tumour Analysis for TIG / NCARD
+# Mixed Model Anova Tumour Analysis for TIG / NCARD 
+[![DOI](https://zenodo.org/badge/150074479.svg)](https://zenodo.org/badge/latestdoi/150074479)
 
 This script was written for the Tumour Immunology Group part of the National Centre for Asbestos Related Diseases. It is intended for researchers to compare tumour growth between treatment groups without having to know how to program or use the models. This script generates a text file with the mixed Model Anova Type 3, KR-method and Estimated Marginal Means.
 
